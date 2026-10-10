@@ -130,13 +130,3 @@ Penjelasan bagian-bagiannya berdasarkan dokumen tugas:
 2. **`x`** — Penanda bahwa informasi kata sandi grup tidak ditulis langsung pada `/etc/group`, melainkan dikelola melalui `/etc/gshadow`.
 3. **`0`** — *Group ID* (**GID**), yaitu nomor identitas grup. Nomor `0` digunakan untuk grup `root`.
 4. **Bagian kosong setelah GID** — Kolom anggota tambahan grup. Karena kolomnya kosong, tidak ada nama pengguna tambahan yang tercantum pada baris tersebut.
-
-## Kesimpulan
-
-Berdasarkan praktik yang didokumentasikan, perintah `finger` dan `chfn` digunakan untuk melihat dan mengubah informasi pengguna. Perintah `who`, `users`, dan `last` membantu melihat informasi pengguna yang sedang login serta riwayat login. Sementara itu, file `/etc/group` dan perintah `grep` digunakan untuk memeriksa informasi grup, termasuk grup `root` dengan GID `0`.
-
-## Sumber
-
-Dokumen asli: **Tugas 4 Sistem Operasi** — M. Rizky Putra Wijaya, kelas SKU3A, NIM 09011382530139. Seluruh tangkapan layar diambil dari dokumen tersebut.
-
-> **Catatan:** Jika repository GitHub bersifat publik, periksa kembali informasi pribadi yang terlihat dalam tangkapan layar sebelum mengunggahnya.
