@@ -5,9 +5,6 @@
 **Kelas:** SKU3A  
 **Mata Kuliah:** Sistem Operasi
 
-## Pendahuluan
-
-Dokumentasi ini berisi hasil praktik penggunaan perintah Linux untuk **mengubah informasi pengguna**, **memeriksa pengguna yang aktif**, dan **menganalisis grup pengguna melalui berkas `/etc/group`**, berdasarkan *Tugas 4 Sistem Operasi*.
 
 ## 1. Mengubah Informasi Finger pada Komputer
 
